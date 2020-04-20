@@ -8,13 +8,13 @@ const express = require('express')
 const cors = require('cors')
 const app = express()
 var videoTitle
-const youtube = new Youtube('AIzaSyCI4sylFb9PaZ1v_MsfUFHs50L-ey82qVk')
+const youtube = new Youtube('YOURTOKEN')
 
 
 'use strict';
-bot.login("Njk3NDM5MTY1OTY4NTQ3OTAz.Xpdozw.UdYrye0nO34dmvFLAdEzLgfH5XY")
+bot.login("YOURTOKEN")
 
-LeagueAPI = new LeagueAPI("RGAPI-3838f210-1567-43c6-8c12-e880dded3331", Region.EUNE)
+LeagueAPI = new LeagueAPI("YOURTOKEN", Region.EUNE)
 
 bot.on('ready', () => {
     console.log("I am ready")
